@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# Agile Development in Practice
 
-You can use the [editor on GitHub](https://github.com/T-Coder-JK/T-Coder-JK.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### Once Upon a Time in Waterfall Land
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Before the advent of agile frameworks like Scrum, a product person—the product manager —would typically carry out the market research, compile a market requirements specification, create a business case, put together product roadmap, write a requirements specification, and then hand it off to a project manager. The latter would work with one or more development teams to get the specification implemented. During the development phase, the product manager would be only loosely involved, typically attending a project steering meeting and possibly issuing change requests. Otherwise, the individual would hope that the requirements were implemented as specified. Only once the product was close to being finished would the product manager return to the project and prepare the release of the product. This sequential, waterfall-based approach used to work when there was little change and innovation, when product managers could correctly predict what the users needed and describe the detailed product functionality upfront. But it is less suited to create complex digital products.
 
-### Markdown
+### The Brave New Agile World
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+As agile practices have become more widely adopted, the processes used to develop products have significantly changed: Product people and development teams now tend to collaborate much more closely. Dev teams have become cross-functional consisting of UX designers, architects, programmers, testers, and other roles. Products are developed using iterative-incremental processes like Scrum. Requirements are no longer detailed and frozen before development starts but they emerge. An increasing number of organizations have moved away from organizing around projects and have started to embrace a product-led approach.
 
-```markdown
-Syntax highlighted code block
+**Early user feedback, frequent solution validation**: We now have the ability to collect early and frequent user and customer feedback, which helps us validate our ideas and update our plans accordingly. This has increased the chances of creating a product with the right UX and the right features. 
 
-# Header 1
-## Header 2
-### Header 3
+**Reduced time-to-market:**We can now release new products and features more quickly. This is enabled by a closer, ongoing collaboration with cross-functional development teams, shifting from written documentation to face-to-face conversations, and using techniques such as user stories that reduce overhead—when applied correctly. 
 
-- Bulleted
-- List
+**Better product quality and improved adaptability:** The quality of our products has improved through the application of agile development practices like emergent design, test-driven development, and continuous integration. This has allowed us to adapt the product more quickly and to respond to user feedback more easily. 
 
-1. Numbered
-2. List
+**Better requirements:** As product people, we are no longer solely responsible for coming up with the correct requirements. Instead, the dev team members actively participate in the product backlog refinement work and help us identify the necessary changes and capture new product backlog items. This leverages the team members’ creativity and expertise, creates a shared understanding, fosters collective ownership, improves the quality of the requirements, and ultimately results in better products. 
 
-**Bold** and _Italic_ and `Code` text
+**Transparent development progress:** We can see the development progress more clearly and make corrections early if required: The progress is now based on working software rather than a detailed, Gantt chart-based project plan. This mitigates the risk of discovering late that the product cannot be shipped on time or that some features were implemented incorrectly. 
 
-[Link](url) and ![Image](src)
-```
+**Improved alignment:** Stakeholders and development teams are now better aligned through the use of regular collaborative workshops like sprint reviews. This creates a shared understanding and leads to greater commitment: Asking people about their perspectives and involving them in the process of making product decisions increases the likelihood that the individuals will support the decisions.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+**Motivated productive teams:** Last but not least, self-organizing development teams tend to be more motivated and productive compared to traditional ones, as they are able to determine themselves how much work can be done in a given period, decide who carries out a specific piece of work, and agree on how the team members collaborate.
 
-### Jekyll Themes
+### Old and New Product Management Challenges
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/T-Coder-JK/T-Coder-JK.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+While agile methods have given us plenty of benefits, a number of product management challenges still persist. These were not caused by agile practices, as far as I can tell. Agile has made them more visible, though, and it has exacerbated some of them. Let’s look at the key challenges that remain.
 
-### Support or Contact
+**Lack of empowerment:** When coining the Scrum terms, Ken Schwaber and Jeff Sutherland chose the term product owner instead of product manager in order to emphasize the level of authority and empowerment a product person requires—especially in an agile context where collaboration is valued, and stakeholders and dev teams regularly contribute to product decisions. 
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Unfortunately, a lack of empowerment is still a common issue: Product people often don’t have the necessary authority to make strategic product decision, shape the strategy, and own the roadmap. Consequently, they are in danger of playing a tactical product role and being product backlog managers and user story writers rather than owning the product in its entirety and being able to maximize the value it creates.
+
+**Confusion about roles and responsibilities:** Even 20 years after the Manifesto for Agile Software Development was conceived, agile roles like product owner and Scrum Master are not always clearly understood, let alone effectively applied. As indicated above, product owners are sometimes mistaken for product backlog managers and stakeholder pleasers instead of the individuals who are in charge of a product and whose decisions the entire organization must respect, as the Scrum Guide puts it.
+
+**Lack of direct interaction with users and customers:** Customer collaboration is one of the four values in the agile manifesto. Nevertheless, it’s not uncommon for me to meet product people who don’t have direct access to users and customers. Instead, they solely rely on quantitative data and feedback from sales, which makes it hard to empathize with the users and customers and to fully understand their needs. This, in turn, reduces the chances of offering a product that does a great job for its target audience and generates the desired business benefits. 
+
+**Product discovery and product strategy poorly practiced:** The most beautiful user stories are useless if it’s not clear who the users are and why they would want to use the product. Acquiring this information requires focused product discovery and strategy work. Unfortunately, product discovery and strategy aren’t always effectively practiced. This is not helped by the fact that agile approaches like Scrum do not offer any tools and techniques to help product owners understand if a product should be developed. Fortunately, a number of tools and techniques have emerged in recent years that help product people with their product discovery and strategy work including product vision board and GO product roadmap. 
+
+**Lack of sustainable pace:** “The sponsors, developers, and users should be able to maintain a constant pace indefinitely,” states the Manifesto for Agile Software Development. Ironically, working at a healthy, sustainable pace can be particularly challenging in an agile context: Product people have to regularly interact with development teams in order to update the product backlog, agree on sprint goals, answer questions, and provide feedback on product increments in addition to all the other product management duties. Being overworked, however, has a negative impact on our productivity and mental health.
